@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#4f46e5">
+    <meta name="description" content="Manage poultry farms with flock tracking, egg production insights, and smarter farm operations.">
+    <title>PFMS | Poultry Farm Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="nav-container">
+            <a class="brand" href="https://pms.ngeggs.com/" aria-label="Potri home">
+                <img class="brand-mark" src="https://pms.ngeggs.com/icon.png" alt="Potri">
+                <span>Potri</span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-panel" id="primary-navigation">
+                <nav class="nav-links" aria-label="Main navigation">
+                    <a href="https://pms.ngeggs.com/about">About</a>
+                    <a href="https://pms.ngeggs.com/pricing">Pricing</a>
+                    <a href="https://pms.ngeggs.com/documentation">Documentation</a>
+                    <a href="https://pms.ngeggs.com/contact">Contact</a>
+                </nav>
+                <div class="nav-actions">
+                    <button class="language-button" type="button" aria-label="Language: English">
+                        <span class="globe-icon" aria-hidden="true">◎</span> English (EN) <span class="chevron" aria-hidden="true">⌄</span>
+                    </button>
+                    <a class="nav-login" href="https://pms.ngeggs.com/login">Log In</a>
+                    <a class="button button-small" href="https://pms.ngeggs.com/signup">Sign Up Free</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section" id="home">
+            <div class="hero-container">
+                <div class="hero-copy">
+                    <h1>AI-Driven poultry farms<br class="hero-break"> with human-level<br class="hero-break"> precision</h1>
+                    <p>Empower your farm managers with AI-driven insights to help them track flock health, predict egg yields, and perform at peak efficiency.</p>
+                    <div class="hero-actions">
+                        <a class="button" href="https://pms.ngeggs.com/signup">Get Started Free</a>
+                        <a class="button button-outline" href="https://pms.ngeggs.com/login">Log In to Account</a>
+                    </div>
+                </div>
+
+                <div class="dashboard-stage" aria-label="Poultry farm dashboard preview">
+                    <article class="floating-metric survival-card">
+                        <div class="float-card-top"><span class="mini-icon purple-bg" aria-hidden="true">↗</span><span class="growth-pill">+12%</span></div>
+                        <strong>98%</strong>
+                        <span>Survival Rate</span>
+                    </article>
+                    <article class="floating-metric production-card">
+                        <div class="production-label">Production Met</div>
+                        <div class="production-stat"><strong>89%</strong><span>↑ Up</span></div>
+                    </article>
+                    <article class="floating-metric feed-card">
+                        <div class="float-card-top"><span>Total Feed</span><span>This Month</span></div>
+                        <strong>2,503 kg</strong>
+                    </article>
+                    <article class="floating-metric security-card">
+                        <span class="mini-icon green-bg" aria-hidden="true">✓</span>
+                        <strong>Security</strong>
+                    </article>
+
+                    <div class="dashboard-card">
+                        <div class="dashboard-symbol" aria-hidden="true"><span>◉</span></div>
+                        <h2>Flock Health &amp; Yield</h2>
+                        <p>Create accurate and fast egg yield predictions to maximize ROI.</p>
+                        <div class="prediction-row">
+                            <span class="prediction-icon" aria-hidden="true">⌁</span>
+                            <span class="prediction-track"><span></span></span>
+                            <strong>85%</strong>
+                        </div>
+                        <div class="metric-search"><span>Search metric...</span><span class="search-icon" aria-hidden="true">⌕</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="partners-section" aria-label="Trusted by agricultural partners">
+            <p>TRUSTED BY TOP AGRICULTURAL PARTNERS</p>
+            <div class="partner-list">
+                <span>AgriTech</span>
+                <span>FarmBase</span>
+                <span>PoultryNet</span>
+                <span>YieldPro</span>
+                <span>EcoFarm</span>
+            </div>
+        </section>
+
+        <section class="features-section section-shell" id="features">
+            <div class="feature-intro">
+                <div class="section-heading">
+                    <h2>Why farm<br class="feature-break"> managers love our<br class="feature-break"> AI-Powered<br class="feature-break"> dashboard</h2>
+                </div>
+                <a class="learn-more" href="https://pms.ngeggs.com/documentation">Learn more <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="features-grid">
+                <article class="feature-card">
+                    <span class="feature-icon purple-bg" aria-hidden="true">⌁</span>
+                    <h3>Real-time Analytics</h3>
+                    <p>Instantly track egg production metrics, mortality rates, and feed conversion as they happen.</p>
+                </article>
+                <article class="feature-card">
+                    <span class="feature-icon blue-bg" aria-hidden="true">✦</span>
+                    <h3>AI Predictions</h3>
+                    <p>Leverage machine learning to predict disease outbreaks and identify low-yield batches before they cost you.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="pricing-section" id="pricing">
+            <div class="section-shell">
+                <div class="section-heading">
+                    <h2>Simple, transparent pricing</h2>
+                    <p>Choose the plan that fits your farm's size and needs. Upgrade anytime as your flock grows.</p>
+                </div>
+                <div class="pricing-grid">
+                    <article class="pricing-card">
+                        <h3>Free Starter</h3>
+                        <p class="plan-description">Perfect for small farms getting started with digital log management.</p>
+                        <p class="price">$0 <span>/mo</span></p>
+                        <a class="button button-plan button-outline" href="https://pms.ngeggs.com/signup">Get Started Free</a>
+                        <ul>
+                            <li>1 Farm Branch Included</li>
+                            <li>Basic Egg &amp; Feed Logs</li>
+                            <li>Community Forum Support</li>
+                            <li>2 Staff Accounts</li>
+                        </ul>
+                    </article>
+                    <article class="pricing-card pricing-featured">
+                        <span class="popular-badge">✦ Most Popular</span>
+                        <h3>Commercial Pro</h3>
+                        <p class="plan-description">For growing poultry farms requiring AI telemetry and automated reports.</p>
+                        <p class="price">$15 <span>/mo</span></p>
+                        <a class="button button-plan" href="https://pms.ngeggs.com/signup">Start Pro Trial</a>
+                        <ul>
+                            <li>Up to 5 Farm Branches</li>
+                            <li>CCTV Live Surveillance</li>
+                            <li>AI Voice Auto-Logger</li>
+                            <li>PDF &amp; Excel Export Reports</li>
+                            <li>Unlimited Staff Accounts</li>
+                        </ul>
+                    </article>
+                    <article class="pricing-card">
+                        <h3>Enterprise &amp; Cooperative</h3>
+                        <p class="plan-description">For multi-farm operations, cooperative white-label portals, and API access.</p>
+                        <p class="price">$45 <span>/mo</span></p>
+                        <a class="button button-plan button-outline" href="https://pms.ngeggs.com/contact">Get Enterprise</a>
+                        <ul>
+                            <li>Unlimited Farm Branches</li>
+                            <li>Cooperative White-Label Portal</li>
+                            <li>24/7 Priority Consultant Hotline</li>
+                            <li>Custom REST API Keys</li>
+                            <li>Multi-Farm Matrix Dashboard</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials-section section-shell">
+            <div class="section-heading">
+                <span class="eyebrow">Made for people who run farms</span>
+                <h2>What farm owners are saying</h2>
+            </div>
+            <div class="testimonial-grid">
+                <figure class="testimonial-card">
+                    <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+                    <blockquote>“Since implementing PFMS, our farm's productivity has skyrocketed. The AI insights alone have helped us reduce feed waste by 30% faster than last quarter. Absolutely essential tool.”</blockquote>
+                    <figcaption><span class="testimonial-avatar avatar-purple">AT</span><span><strong>Alex Thompson</strong><small>Farm Manager, Green Acres</small></span></figcaption>
+                </figure>
+                <figure class="testimonial-card">
+                    <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+                    <blockquote>“Since implementing PFMS, our farm's productivity has skyrocketed. The AI insights alone have helped us reduce feed waste by 30% faster than last quarter. Absolutely essential tool.”</blockquote>
+                    <figcaption><span class="testimonial-avatar avatar-blue">AT</span><span><strong>Alex Thompson</strong><small>Farm Manager, Green Acres</small></span></figcaption>
+                </figure>
+                <figure class="testimonial-card">
+                    <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+                    <blockquote>“Since implementing PFMS, our farm's productivity has skyrocketed. The AI insights alone have helped us reduce feed waste by 30% faster than last quarter. Absolutely essential tool.”</blockquote>
+                    <figcaption><span class="testimonial-avatar avatar-green">AT</span><span><strong>Alex Thompson</strong><small>Farm Manager, Green Acres</small></span></figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="faq-section" id="faq">
+            <div class="section-shell faq-container">
+                <div class="section-heading">
+                    <span class="faq-symbol" aria-hidden="true">?</span>
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Everything you need to know about managing your poultry farm with PFMS AI.</p>
+                </div>
+                <div class="faq-list">
+                    <details open>
+                        <summary>How does the AI prediction model work for egg yields?</summary>
+                        <p>Our AI algorithm analyzes historical flock data, daily feed consumption, water intake, temperature, and breed-specific laying curves to forecast egg production 7–14 days in advance, helping you identify low-performance batches early.</p>
+                    </details>
+                    <details>
+                        <summary>Can I integrate this with my current CCTV cameras?</summary>
+                        <p>Camera availability depends on your farm setup and plan. Contact the PFMS team to discuss compatibility and supported integrations.</p>
+                    </details>
+                    <details>
+                        <summary>What kind of support do you offer?</summary>
+                        <p>Support options vary by plan, from community support for starter farms to priority consultation for enterprise customers.</p>
+                    </details>
+                    <details>
+                        <summary>Is there a free trial or free tier available?</summary>
+                        <p>Yes. The Free Starter plan includes essential farm, egg, and feed logs so you can begin organizing your records.</p>
+                    </details>
+                    <details>
+                        <summary>How do customer invoices and online payments work?</summary>
+                        <p>For current billing and payment details, please contact the PFMS team through the official website.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section class="closing-section">
+            <div class="closing-content">
+                <h2>Supercharge your farm with AI today!</h2>
+                <a class="button button-white" href="https://pms.ngeggs.com/signup">Create Free Account <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="closing-orb orb-one"></div>
+            <div class="closing-orb orb-two"></div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-main">
+            <a class="brand footer-brand" href="https://pms.ngeggs.com/" aria-label="Potri home">
+                <img class="brand-mark" src="https://pms.ngeggs.com/icon.png" alt="Potri">
+                <span>Potri</span>
+            </a>
+            <nav class="footer-links" aria-label="Footer navigation">
+                <a href="https://pms.ngeggs.com/privacy">Privacy Policy</a>
+                <a href="https://pms.ngeggs.com/terms">Terms of Service</a>
+                <a href="https://pms.ngeggs.com/documentation">Documentation</a>
+                <a href="https://pms.ngeggs.com/contact">Contact</a>
+            </nav>
+            <div class="footer-bottom">
+            <span>© 2026 PFFMS Inc. All rights reserved.</span>
+            </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navigation = document.querySelector("#primary-navigation");
+
+        menuToggle.addEventListener("click", () => {
+            const isExpanded = menuToggle.getAttribute("aria-expanded") === "true";
+            menuToggle.setAttribute("aria-expanded", String(!isExpanded));
+            navigation.classList.toggle("is-open", !isExpanded);
+        });
+
+        navigation.addEventListener("click", (event) => {
+            if (event.target.closest("a")) {
+                menuToggle.setAttribute("aria-expanded", "false");
+                navigation.classList.remove("is-open");
+            }
+        });
+    </script>
+</body>
+</html>
